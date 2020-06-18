@@ -2,7 +2,7 @@
 
 
 function howManySeconds(hours) {
-return hours * 3600;
+  return hours * 3600;
 }
 
 howManySeconds(2) ➞ 7200
