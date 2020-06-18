@@ -1,4 +1,4 @@
-// Instructions: Write a function that converts hours into seconds. (Level: Very Easy)
+// Instructions: Write a function that converts hours into seconds. 
 
 
 function howManySeconds(hours) {
