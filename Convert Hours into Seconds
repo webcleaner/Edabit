@@ -5,14 +5,14 @@ function howManySeconds(hours) {
 return hours * 3600;
 }
 
-howManySeconds(2);
+howManySeconds(2) ➞ 7200
+howManySeconds(10) ➞ 36000
+howManySeconds(24) ➞ 86400
 
 // How many seconds are in 1 hour?
 // 60 seconds = 1 minute
 // 60 minutes = 1 hour
 // 60 minutes * 60 seconds = 3600 seconds in 1 hour
 
-Examples:
-howManySeconds(2) ➞ 7200
-howManySeconds(10) ➞ 36000
-howManySeconds(24) ➞ 86400
+
+
