@@ -1,0 +1,16 @@
+// Instructions: Create a function that takes an array and returns the first element.
+
+
+function getFirstValue(arr){
+  return arr[0];
+  }
+  
+getFirstValue([1, 2, 3]) ➞ 1
+getFirstValue([80, 5, 100]) ➞ 80
+getFirstValue([-500, 0, 50]) ➞ -500
+
+// also correct
+
+function getFirstValue(arr){
+ const el = arr.shift () ;
+return "Use shift() method to return first element = " + el;}
