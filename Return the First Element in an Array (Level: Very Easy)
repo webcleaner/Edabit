@@ -12,10 +12,12 @@ getFirstValue([-500, 0, 50]) ➞ -500
 // also correct
 
 function getFirstValue(arr){
-const el = arr.shift () ;
-  return "Use shift() method to return first element = " + el;}
+const el = arr.shift() ;
+  return "Use shift() method to return first element = " + el;
+  }
 
 // also correct
 
 function getFirstValue(arr){
-  return arr.slice (0,1) ;
+  return arr.slice(0,1);
+  }
