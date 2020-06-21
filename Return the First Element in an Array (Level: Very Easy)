@@ -13,11 +13,11 @@ getFirstValue([-500, 0, 50]) ➞ -500
 
 function getFirstValue(arr){
 const el = arr.shift() ;
-  return "Use shift() method to return first element = " + el;
+  return "Use shift() method to return first element in an array = " + el;
   }
 
 // also correct
 
 function getFirstValue(arr){
-  return arr.slice(0,1);
+  return arr.slice(0,1);                       // 0 is array index, 1 indicates to stop at first element
   }
