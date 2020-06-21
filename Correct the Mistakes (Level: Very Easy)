@@ -9,7 +9,7 @@ squared(100) ➞ 10000
 
 // Code: Find the Mistakes:
 function squaed(b) {
-	return $a*$a;
+  return $a*$a;
 }
 
 // Solution:
