@@ -1,0 +1,10 @@
+// Instructions: Create a function that takes height and width and finds the perimeter of a rectangle.
+
+
+function findPerimeter(height, width) {
+  return (a + b) * 2;                         //parenthesis around addition, to do first, since multiplication & division take precedence
+}
+
+findPerimeter(6, 7) ➞ 26
+findPerimeter(20, 10) ➞ 60
+findPerimeter(2, 9) ➞ 22
