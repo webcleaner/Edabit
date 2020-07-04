@@ -2,7 +2,7 @@ e// Instructions: Create a function that takes height and width and finds the pe
 
 
 function findPerimeter(height, width) {
-  return (a + b) * 2;                         //parentheses around addition, to do first, since multiplication & division take precedence
+  return (height + width) * 2;                         //parentheses around addition, to do first, since multiplication & division take precedence
 }
 
 findPerimeter(6, 7) ➞ 26
