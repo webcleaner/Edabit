@@ -1,0 +1,14 @@
+// Instructions: Create a function that returns true when num1 is equal to num2; otherwise return false.
+
+
+function isSameNum(num1, num2) {
+  return (num1===num2);
+ }
+ 
+//  function sameNum(num1, num2) {       returns true everytime, even if nums are not equal
+//  if (num1===num2);
+//  return true;
+  
+isSameNum(4, 8) ➞ false
+isSameNum(2, 2) ➞  true
+isSameNum(2, "2") ➞ false
